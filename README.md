@@ -1,12 +1,18 @@
-# React + Vite
+This is an actively developed full-stack POS system designed to manage authentication, protected routes, and transactional workflows. The application uses Supabase for backend services and authentication, with Zustand for global state management. This will be constantly updated until it's finished. I'll add the features with description here with there dates. 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
+Features Implemented 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Google OAuth authentication for admin users
 
-## Expanding the ESLint configuration
+Email/password authentication for standard users
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Protected route wrapper to prevent unauthorized access
+
+Global session state management using Zustand
+
+Relational database structure for users and transactions
+
+-- Status
+
+Active development – expanding inventory and sales management features.
